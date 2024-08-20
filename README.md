@@ -9,3 +9,7 @@ Linguagens e Frameworks utilizados: Vue 3, JavaScript, Vuetify, Echarts.
 - 📄 [Hibernate](https://hibernate.org/)
 - 📄 [Docker](https://www.docker.com/)
 
+
+## ❗️ Modelo das tabelas no banco de dados:
+
+![image](https://github.com/user-attachments/assets/c6149cb4-836c-45c1-9bfb-7ca4c021687d)
