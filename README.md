@@ -17,6 +17,9 @@ Aplicação desenvolvida com o intuito de buscar valores de ações integrado co
 
 Posicionado na pasta raiz do projeto configure os dados necessarios para rodar a aplicação no arquivo .env
 
+Necessita a criação de um token no site da Brapi para realizar as consultas de valores:
+- 📄 [Brapi](https://brapi.dev/)
+
 ### Exemplo
 ```env
 DB_USER=root  
