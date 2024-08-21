@@ -31,7 +31,8 @@ public class User {
     @UpdateTimestamp
     private Instant updateTimeStamp;
 
-    @OneToMany(mappedBy = "user")
+    @OneToMany
+    @JoinColumn(name = "user_id")
     private List<Account> accounts;
 
     public User() {

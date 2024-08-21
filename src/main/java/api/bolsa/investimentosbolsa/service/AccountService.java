@@ -48,7 +48,6 @@ public class AccountService {
         var  id = new AccountStockId(account.getAccountId(), stock.getStockId());
         var entity = new AccountStock(
                 id,
-                account,
                 stock,
                 dto.quantity()
         );

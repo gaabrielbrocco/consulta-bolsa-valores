@@ -95,7 +95,7 @@ public class UserService {
 
         var account = new Account(
                 UUID.randomUUID(),
-                user,
+                user.getUserId(),
                 null,
                 createAccountDto.description(),
                 new ArrayList<>()
@@ -105,7 +105,6 @@ public class UserService {
 
         var billingAddress = new BillingAddress(
             accountCreated.getAccountId(),
-                account,
                 createAccountDto.street(),
                 createAccountDto.number()
         );
